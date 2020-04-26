@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  font-family: "Spartan", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.search-area {
+  height: 90px;
+}
+.change-city {
+  border: 1px solid #f5c023;
+  height: 24px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.search-city {
+  height: 28px;
+  background-color: #ff572299;
+  color: #fff;
+  outline: none;
+  border: 1px solid #ff9800e8;
+  margin-top: 7px;
+  width: 80px;
+  cursor: pointer;
+}
